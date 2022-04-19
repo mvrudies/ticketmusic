@@ -1,12 +1,13 @@
 /* Fonte externa importada do Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif
+    font-family: 'Roboto', 'Open Sans', sans-serif;
 }
+
 
 /*Container Principal*/
 .sec {
@@ -104,7 +105,7 @@ main{
     font-size: 30px;
 }
 .info-conteiner p {
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Roboto', 'Open Sans', sans-serif;
     font-size: 15px;
 }
 
@@ -157,10 +158,10 @@ main{
 
 
 #esquerda img{
-    height:50%1;
-    object-fit: cover; 
-    padding: auto;
-    width:50vh ;
+    height:100%;
+    margin-top:0%;
+    padding: 0;
+    width: 500px;
     max-width: 100%;
     margin-left: 160px;
     
@@ -209,7 +210,7 @@ main{
     padding:       17px 31px;
     color:         #ffffff;
     display:       inline-block;
-    font:          normal bold 16px/1 "Ubuntu", sans-serif;
+    font:          normal bold 16px/1  'Julius Sans One', sans-serif;
     text-align:    center;
     text-shadow:   3px 3px #000000;
 }
@@ -230,6 +231,7 @@ footer{
     width: 100%;
     background: #202020;
     color: white;   
+    margin-top: 80px;
     
 }
 

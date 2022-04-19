@@ -1,11 +1,21 @@
+<<<<<<< HEAD
 /* Fonte externa importada do Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+=======
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+>>>>>>> 4517ada2d852ee5bf40f0a89af8e77fd16a64e53
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif
+<<<<<<< HEAD
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+}
+p{
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+=======
+>>>>>>> 4517ada2d852ee5bf40f0a89af8e77fd16a64e53
 }
 
 /*Container Principal*/
@@ -64,7 +74,7 @@ header .navigation li a {
 
 .content h2 {
     color: #fff;
-    font-size: 3em;
+    font-size: 4em;
     line-height: 1em;
 }
 
@@ -84,7 +94,24 @@ header .navigation li a {
     display: inline-block;
     text-decoration: none;
     color: #111;
+    border: black solid 1px;
     border-radius: 50px;
+    box-shadow: 10px 10px;
+    transition-duration: 0.4s;
+    font-weight: bolder;
+}
+
+.content a:hover{
+    background: lightskyblue;
+    font-weight: bolder;
+}
+
+.textBx p{
+    text-align: justify;
+}
+
+.textBx  h2, span {
+    text-align: center;
 }
 
 .nota {
@@ -100,6 +127,10 @@ header .logo img {
     top: 0;
     left: 0;
     margin: 10px;
+}
+
+footer .informacao {
+    text-align: justify;
 }
 
 /*Responsivo*/

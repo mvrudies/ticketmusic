@@ -7,8 +7,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/stylesheets/login.css">
-    <link rel="shortcut icon" href="../public/images/solFavicon.png" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="../public/stylesheets/login.css">
+    <link rel="shortcut icon" href="/images/solFavicon.png" type="image/x-icon" />
     <title>Tickect Music - Login </title>
 </head>
 
@@ -17,17 +17,14 @@
     <section class="sec">
         <!-- Cabeçalho -->
         <header>
-            <a href="#" class="logo"><img src="../public/images/logo.png" alt="logo"></a>
+            <a href="http://localhost:3000/Home/" class="logo"><img src="../public/images/logo.png"
+                    alt='À esquerda há uma clave de Sol, que é um símbolo musical, e à direita dela está escrito "Ticket Music"'></a>
             <div class="toggleMenu" onclick="menuToggle();"></div>
             <ul class="navigation">
-                <li><a href="../paginaHome/index.html">Home</a></li>
-                <li><a href="../paginaShow/show.html">Shows</a></li>
-                <li><a href="../paginaEvento/index.html">Eventos</a></li>
-                <li><a href="../paginaCadastro/index.html">Cadastro</a></li>
-                <li><a href="../paginaCarrinho/carrinho.html">Carrinho</a></li>
-                <li><a href="../paginaAjuda/faleConosco.html">Ajuda</a></li>
-                <li><a href="../paginaLogin/login.html">Login</a></li>
-                <li><a href="">Contatos</a></li>
+                <li><a href="http://localhost:3000/Home/">Home</a></li>
+                <li><a href="http://localhost:3000/login/">Login</a></li>
+                <li><a href="http://localhost:3000/carrinho/">Carrinho</a></li>
+                <li><a href="http://localhost:3000/ajuda/">Ajuda</a></li>
             </ul>
         </header>
 
@@ -43,29 +40,25 @@
 
                 <!--LOGIN-->
                 <div class="campo">
-
-
                     <H1 class="texto"><strong> Conectar A Sua Conta </strong></H1>
                     <form>
                         <div class="formulario">
-                            <label for="username" class="login">Digite seu e-mail :</label>
+                            <label for="username" class="login">Digite seu e-mail</label>
                             <input type="email" id="username" name="username" required class="caixa">
-                            <label for="pwd" class="login">Senha:</label>
+                            <label for="pwd" class="login">Senha</label>
                             <input type="password" id="pwd" name="pwd" class="caixa">
                     </form>
-                    <button class="botao" type="button">Entrar</button>
+                    <button type="button" class="botao">Entrar</button>
                 </div>
                 </div>
 
+                <hr class="linha">
 
-                <hr>
                 <!--PAGINA FINAL DA PAGINA -->
                 <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Veritatis facere amet quidem doloremque dignissimos natus libero numquam, aliquam, vitae commodi
                     maxime eos perferendis voluptas doloribus nulla accusantium unde?
-                    Ducimus, fuga? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nobis dolore
-                    exercitationem vel alias eaque sint nemo delectus iure! Et modi
-                    quod accusamus possimus error vel non ipsam obcaecati sequi!</h4>
+                    Ducimus, fuga? Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
         </main>
 
     </section>
@@ -99,7 +92,7 @@
                         <label>Nos Siga no Twitter</label>
                     </div>
                     <div class="row">
-                        <img src="../public/images/instagram.png">
+                        <img src="../public/images/insta.png">
                         <label>Nos Siga no Instagram</label>
                     </div>
 
@@ -131,7 +124,6 @@
         </div>
 
     </footer>
-
 </body>
 
 </html>

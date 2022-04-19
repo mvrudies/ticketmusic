@@ -5,34 +5,36 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="stylesheets/home.css" />
-  <link rel="shortcut icon" href="../public/images/solFavicon.png" type="image/x-icon" />
+<<<<<<< HEAD
+  <link rel="stylesheet" href="/backEnd/public/stylesheets/home.css" />
+  <link rel="shortcut icon" href="/backEnd/public/images/favicon.png" type="image/x-icon" />
+=======
+  <link rel="stylesheet" href="../public/stylesheets/home.css" />
+  <link rel="shortcut icon" href="/public/images/solFavicon.png" type="image/x-icon" />
+>>>>>>> 4517ada2d852ee5bf40f0a89af8e77fd16a64e53
   <title>Ticket Music</title>
 </head>
 
 <body>
+ <div> 
   <section class="sec">
     <!-- Cabeçalho -->
     <header>
-      <a href="#" class="logo"><img src="../public/images/logo.png" alt="logo" /></a>
+      <a href="http://localhost:3000/Home/" class="logo"><img src="/backEnd/public/images/logo.png"
+          alt='À esquerda há uma clave de Sol, que é um símbolo musical, e à direita dela está escrito "Ticket Music"'></a>
       <div class="toggleMenu" onclick="menuToggle();"></div>
       <ul class="navigation">
-        <li><a href="../paginaHome/index.html">Home</a></li>
-        <li><a href="../paginaEvento/index.html">Eventos</a></li>
-        <li><a href="../paginaLogin/login.html">Login</a></li>
-        <li><a href="../paginaCadastro/index.html">Cadastro</a></li>
-        <li><a href="../paginaCarrinho/carrinho.html">Carrinho</a></li>
-        <li><a href="../paginaAjuda/faleConosco.html">Ajuda</a></li>
+        <li><a href="http://localhost:3000/Home/">Home</a></li>
+        <li><a href="http://localhost:3000/login/">Login</a></li>
+        <li><a href="http://localhost:3000/carrinho/">Carrinho</a></li>
+        <li><a href="http://localhost:3000/ajuda/">Ajuda</a></li>
       </ul>
     </header>
 
     <!-- Texto De A presentação -->
     <div class="content">
       <div class="textBx">
-        <h2>
-          Venha curtir sua vibe <br />
-          <span>Ticket Music</span>
-        </h2>
+        <h2>Venha curtir sua vibe <span>Ticket Music</span></h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima rem
           et repellendus eligendi repellat expedita nobis quis aut nemo dicta
@@ -45,7 +47,7 @@
     </div>
 
     <!-- Imagem da Nota -->
-    <img src="../public/images/novaNota.png" class="nota" />
+    <img src="/backEnd/public/images/novaNota.png" class="nota" />
   </section>
 
   <!-- Script dos botoes de menu quando site fica menor -->
@@ -64,11 +66,11 @@
         <div class="colum1">
           <h1>Mais Informações</h1>
 
-          <p>
+          <p class="informacao">
             Todos os preços e condições comerciais estão sujeitos a alteração
-            comercial sem prévio aviso. <br />
-            Tickect music Eventos Culturais Ltda - CNPJ 10.000.000/0001-00 Rua
-            Fernão Dias , 130 - Cj 5 - CEP: 00110-030 - São Paulo - SP.
+            comercial sem prévio aviso.
+            <p>Tickect music Eventos Culturais Ltda - CNPJ 10.000.000/0001-00 Rua
+            Fernão Dias , 130 - Cj 5 - CEP: 00110-030 - São Paulo - SP.</p>
           </p>
         </div>
 
@@ -76,15 +78,15 @@
           <h1>Redes Sociais</h1>
 
           <div class="row">
-            <img src="../public/images/facebook.png" />
+            <img src="../../backEnd/public/images/facebook.png" />
             <label>Nos Siga no Facebook</label>
           </div>
           <div class="row">
-            <img src="../public/images/twitter.png" />
+            <img src="../../backEnd/public/images/twitter.png" />
             <label>Nos Siga no Twitter</label>
           </div>
           <div class="row">
-            <img src="../public/images/instagram.png" />
+            <img src="../../backEnd/public/images/insta.png" />
             <label>Nos Siga no Instagram</label>
           </div>
         </div>
@@ -109,6 +111,7 @@
       </div>
     </div>
   </footer>
+</div>  
 </body>
 
 </html>
